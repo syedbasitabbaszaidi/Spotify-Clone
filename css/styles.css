@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+}
+.home{
+    display: flex;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+}
+.logo{
+    margin: 0px 10px;
+}
+.home_logo{
+    width: 30px;
+    height: 30px;
+}
+.search{
+    position: relative;
+    width: 30px;
+}
+.search input{
+    width: 440px;
+    height: 89%;
+    border-radius: 10px;
+}
+.search .search_logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.search .browse{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
