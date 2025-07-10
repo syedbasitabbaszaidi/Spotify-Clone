@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,42 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/utilty.css">
 </head>
+
 <body>
+    <div class="playNoha">
+        <div class="cancel">
+            <img class="invert" src="images/cancel.png" alt="" width="25px">
+        </div>
+        <div class="image">
+            <img src="images/nadeem sarwar.jpeg" alt="" width="400px" height="400px">
+        </div>
+        <div class="playbar">
+            <div class="name">
+                <h2>Voices of Karbala</h2>
+            </div>
+            <div class="buttons">
+                <img id="previous" src="images/previous.png" alt="" width="25px">
+                <img id="play" src="images/play-button-arrowhead.png" alt="" width="25px">
+                <img id="next" src="images/next.png" alt="" width="25px">
+            </div>
+            <div class="time_vol">
+                <div class="time">00:00</div>
+                <div class="vol_logo">
+                    <img src="images/volume-up.png" alt="" width="30px">
+                </div>
+                <div class="vol"><input type="range"></div>
+            </div>
+            <div class="seekbar">
+                <div class="circle">
+
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="bg-black">
         <div class="home">
             <div class="logo">
-                <img class="invert" src="images/logo.svg" alt="" width="25px">
+                <img class="invert" src="images/logo.svg" alt="" width="35px">
             </div>
             <div class="home_logo bg-grey">
                 <img class="invert" src="images/home.svg" alt="" width="25px">
@@ -33,9 +65,6 @@
                 <h2>Support</h2>
                 <h2>Download</h2>
             </div>
-            <div class="or">
-                <h2>|</h2>
-            </div>
             <div class="install">
                 <img class="invert" src="images/install.svg" alt="" width="20px">
                 <h2>Install App</h2>
@@ -48,7 +77,62 @@
             </div>
         </div>
     </header>
-    <img class="invert" src="images/browse.svg" alt="" width="25px" height="40px">
-    <!-- <script src="scripts/script.js"></script> -->
+    <main>
+        <div class="library rounded">
+            <div class="cancel">
+                <img class="invert" src="images/cancel.png" alt="" width="25px">
+            </div>
+            <div class="heading">
+                <h1>You Library</h1>
+            </div>
+            <div class="folders">
+                <h2>Folder Names</h2>
+                <ul>
+
+                </ul>
+            </div>
+            <div class="footer">
+                <div>
+                    <a href="https://www.spotify.com/pk-en/legal/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Legal</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/pk-en/safetyandprivacy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Privacy Policy</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/pk-en/legal/cookies-policy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Cookies</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">About Ads</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/pk-en/accessibility/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Accessibility</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mainContainer rounded">
+            <img class="invert hamburger" src="images/hamburger.png" alt="" width="25px">
+            <h1>Spotify Playlist</h1>
+            <div class="cardContainer">
+                
+            </div>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>

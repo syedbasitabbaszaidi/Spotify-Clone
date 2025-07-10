@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    .library {
+        display: none;
+    }
+    main{
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        width: 100%;
+        height: auto;
+    }
+    .hamburger {
+        display: block;
+    }
+    .mainContainer{
+        margin: 20px;
+        padding: 0;
+        width: auto;
+        height: 100%;
+    }
+}
